@@ -1,14 +1,10 @@
-import { createStore } from 'vuex';
+import hackerNewsStore from '@/store/hacker-news';
 
-export default createStore({
-  state: {
+export default {
+  setup() {
+    const store = hackerNewsStore();
+    return {
+      store,
+    };
   },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  },
-});
+};
