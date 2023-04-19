@@ -2,6 +2,7 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 import StorePractice from '@/views/StorePractice.vue';
 import PricingTier from '@/views/PricingTier.vue';
 import HomeView from '../views/HomeView.vue';
+import DashBoard from '../views/DashBoard.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -18,6 +19,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/pricing-tier',
     name: 'PricingTier',
     component: PricingTier,
+  },
+  {
+    path: '/dash-board',
+    name: 'DashBoard',
+    component: DashBoard,
   },
 ];
 
