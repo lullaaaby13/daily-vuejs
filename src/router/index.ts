@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 import StorePractice from '@/views/StorePractice.vue';
 import PricingTier from '@/views/PricingTier.vue';
+import Board from '@/views/board/Board.vue';
 import HomeView from '../views/HomeView.vue';
 import DashBoard from '../views/DashBoard.vue';
 
@@ -24,6 +25,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/dash-board',
     name: 'DashBoard',
     component: DashBoard,
+  },
+  {
+    path: '/board',
+    name: 'Board',
+    component: Board,
   },
 ];
 

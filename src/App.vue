@@ -1,7 +1,7 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <SideBar/>
-    <RightSideBar/>
+<!--    <SideBar/>-->
+<!--    <RightSideBar/>-->
     <q-page-container>
       <router-view />
     </q-page-container>
@@ -14,6 +14,6 @@ import RightSideBar from '@/components/RightSideBar.vue';
 
 export default {
   name: 'LayoutDefault',
-  components: { RightSideBar, SideBar },
+  // components: { RightSideBar, SideBar },
 };
 </script>

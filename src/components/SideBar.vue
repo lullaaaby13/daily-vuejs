@@ -4,10 +4,10 @@
     v-model="leftDrawerOpen"
     side="left"
     behavior="desktop"
-    :width="90"
+    :width="120"
   >
     <div class="flex flex-center column q-mb-md">
-      <h6 class="text-weight-bolder">ZP</h6>
+      <h6 class="text-weight-bolder">LULLABY</h6>
     </div>
     <div class="flex flex-center column q-mt-sm q-mb-md">
       <q-list>
