@@ -3,6 +3,7 @@ import StorePractice from '@/views/StorePractice.vue';
 import PricingTier from '@/views/PricingTier.vue';
 import Board from '@/views/board/Board.vue';
 import Login from '@/views/board/Login.vue';
+import PostDetail from '@/views/board/PostDetail.vue';
 import HomeView from '../views/HomeView.vue';
 import DashBoard from '../views/DashBoard.vue';
 
@@ -36,6 +37,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/login',
     name: 'Login',
     component: Login,
+  },
+  {
+    path: '/post-detail',
+    name: 'PostDetail',
+    component: PostDetail,
   },
 ];
 
