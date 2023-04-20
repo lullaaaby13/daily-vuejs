@@ -2,6 +2,7 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 import StorePractice from '@/views/StorePractice.vue';
 import PricingTier from '@/views/PricingTier.vue';
 import Board from '@/views/board/Board.vue';
+import Login from '@/views/board/Login.vue';
 import HomeView from '../views/HomeView.vue';
 import DashBoard from '../views/DashBoard.vue';
 
@@ -30,6 +31,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/board',
     name: 'Board',
     component: Board,
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login,
   },
 ];
 

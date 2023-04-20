@@ -9,11 +9,24 @@
 </template>
 
 <script>
-import SideBar from '@/components/SideBar.vue';
-import RightSideBar from '@/components/RightSideBar.vue';
 
 export default {
   name: 'LayoutDefault',
   // components: { RightSideBar, SideBar },
 };
 </script>
+
+<style>
+.debug-r {
+  border: 1px solid red;
+}
+
+.debug-g {
+  border: 1px solid green;
+}
+
+.debug-b {
+  border: 1px solid blue;
+}
+
+</style>
